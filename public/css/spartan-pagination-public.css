@@ -1,0 +1,75 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.spartan-pagination {
+    color: #000;
+    margin: 10px auto;
+    clear: both;
+}
+
+.pagination.spartan-pagination,
+.pagination.spartan-pagination:before,
+.pagination.spartan-pagination:after {
+    background-color: transparent;
+    border: none;
+}
+
+.spartan-pagination-location-text {
+    text-align: center;
+}
+
+.spartan-pagination-nav-buttons {
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.spartan-pagination-nav-buttons .disabled {
+    display: none;
+}
+
+.spartan-pagination-nav-buttons ul {
+    list-style-type: none;
+}
+
+.spartan-pagination-nav-buttons ul.back-button,
+.spartan-pagination-nav-buttons ul.sibling-buttons,
+.spartan-pagination-nav-buttons ul.next-button {
+    padding: 0;
+    margin: 0;
+}
+
+.spartan-pagination-nav-buttons ul li {
+    text-align: center;
+    margin: 2px;
+}
+
+.spartan-pagination-nav-buttons .sibling-buttons {
+    display: flex;
+}
+
+.spartan-pagination-nav-buttons .sibling-buttons li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.spartan-pagination-nav-buttons ul li a {
+    padding: 2px 4px;
+    background: #ccc;
+    box-shadow: none;
+    white-space: nowrap;
+}
+
+.spartan-pagination .screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    width: 1px;
+}
+
+.spartan-pagination .pagination-icon svg {
+    width: 1em;
+}

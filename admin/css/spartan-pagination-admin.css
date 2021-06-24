@@ -1,0 +1,43 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* @import '../../public/icons/icons.css'; */
+
+.settings_page_spartan-pagination h2 {
+    margin: 25px 0 5px 0;
+}
+
+.settings_page_spartan-pagination fieldset {
+    padding: 10px 0 10px 10px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.settings_page_spartan-pagination .form-table tr th {
+    padding-left: 10px;
+}
+
+.settings_page_spartan-pagination .pagination-preview p {
+    margin-bottom: .5em;
+}
+
+.settings_page_spartan-pagination .pagination-preview a,
+.settings_page_spartan-pagination .pagination-preview a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px;
+    margin: 0 6px;
+}
+
+.settings_page_spartan-pagination .pagination-preview a.active {
+    color: #C00;
+}
+
+.settings_page_spartan-pagination .pagination-icon svg {
+    max-width: 1em;
+    max-height: 1em;
+    position: relative;
+    top: .15em;
+}
